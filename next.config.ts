@@ -5,7 +5,6 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/portfolio' : '',
   experimental: {
     // reactCompiler has been moved out of experimental or changed
   },
